@@ -1,3 +1,12 @@
+This repo hosts two related security/ML portfolio projects:
+
+1. **This one** — an SMS phishing/smishing text classifier.
+2. **[`exif-forensic-analyzer/`](exif-forensic-analyzer/README.md)** — an
+   image forensics tool (EXIF tamper-indicator detection + OCR/QR scam
+   detection) that reuses this project's trained model as a component.
+
+---
+
 # Phishing / Smishing SMS Detector (Philippines + International scam patterns)
 
 A text classifier that flags phishing/smishing SMS messages, combining a
