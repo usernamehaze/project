@@ -8,6 +8,7 @@ from sklearn.model_selection import train_test_split
 DATA_DIR = Path(__file__).resolve().parent.parent / "data" / "raw"
 UCI_PATH = DATA_DIR / "sms_spam_collection.tsv"
 PH_PATH = DATA_DIR / "ph_scam_augmentation.csv"
+INTL_PATH = DATA_DIR / "international_scam_augmentation.csv"
 
 
 def load_uci_dataset() -> pd.DataFrame:
@@ -22,9 +23,18 @@ def load_ph_dataset() -> pd.DataFrame:
     return df
 
 
+def load_international_dataset() -> pd.DataFrame:
+    df = pd.read_csv(INTL_PATH)
+    df["source"] = "international_augmentation"
+    return df
+
+
 def load_combined_dataset() -> pd.DataFrame:
-    """Combine both sources, drop duplicates, and normalize labels."""
-    df = pd.concat([load_uci_dataset(), load_ph_dataset()], ignore_index=True)
+    """Combine all sources, drop duplicates, and normalize labels."""
+    df = pd.concat(
+        [load_uci_dataset(), load_ph_dataset(), load_international_dataset()],
+        ignore_index=True,
+    )
     df["text"] = df["text"].str.strip()
     df = df.drop_duplicates(subset="text").reset_index(drop=True)
     df["label"] = df["label"].str.lower()

@@ -50,11 +50,11 @@ def classify(text: str, artifacts=None) -> dict:
     if signals["has_shortened_url"]:
         fired.append("uses a shortened URL")
     if signals["num_phone_numbers"] >= 1:
-        fired.append("contains a PH phone number")
+        fired.append("contains a phone number")
     if signals["matched_urgency_words"]:
         fired.append(f"urgency language: {', '.join(signals['matched_urgency_words'][:5])}")
-    if signals["matched_ph_keywords"]:
-        fired.append(f"PH brand/scam keywords: {', '.join(signals['matched_ph_keywords'][:5])}")
+    if signals["matched_scam_keywords"]:
+        fired.append(f"scam brand/keyword match: {', '.join(signals['matched_scam_keywords'][:5])}")
     if signals["num_money_mentions"] >= 1:
         fired.append("mentions a money amount")
     if signals["uppercase_ratio"] > 0.3:

@@ -1,0 +1,83 @@
+label,text
+spam,USPS: Your package has a $2.99 unpaid customs fee. Please pay immediately to avoid return to sender: usps-fee-pay.com
+spam,FedEx: We could not deliver your parcel due to an incomplete address. Update your details within 24 hours: fedex-redeliver.info
+spam,DHL Express: Your parcel is on hold at customs. Pay the outstanding fee of $3.50 to release it: dhl-clearance.net
+spam,Royal Mail: Your item could not be delivered as the postage was insufficient. Pay 1.99 GBP to schedule redelivery: royalmail-redelivery.co
+spam,Evri: We attempted delivery but no one was available. Reschedule and confirm your address: evri-reschedule.info
+spam,Canada Post: Your parcel is being held due to an unpaid duty fee of $4.25. Settle now to avoid return: canadapost-fee.net
+spam,"Australia Post: Your parcel could not be delivered. A small redelivery fee is required, pay here: auspost-redeliver.info"
+spam,Your Amazon package delivery failed. Confirm your address and payment details to reschedule: amazon-redelivery-help.com
+spam,Chase: We noticed unusual activity on your account. Verify your identity now or your card will be suspended: chase-verify-now.com
+spam,Wells Fargo Alert: Your online banking has been locked due to suspicious login. Restore access here: wellsfargo-secure-login.net
+spam,Bank of America: Your debit card has been temporarily deactivated. Confirm your details to reactivate: bofa-cardupdate.info
+spam,"Barclays: A payment of £450 was attempted on your account. If this wasn't you, verify your identity immediately: barclays-alert.co"
+spam,HSBC Security: Unusual sign-in detected. Confirm it's you within 1 hour or we will restrict your account: hsbc-confirm.net
+spam,NatWest: Your online banking session has expired for security reasons. Log in again to restore access: natwest-relogin.info
+spam,PayPal: We limited your account due to unusual activity. Verify your information to remove the limitation: paypal-limitation-fix.com
+spam,"PayPal Alert: You sent a payment of $250.00. If you did not authorize this, click here to dispute now: paypal-dispute-now.net"
+spam,Venmo: Your account has a pending security review. Confirm your identity within 24 hours or funds will be frozen: venmo-review.info
+spam,Zelle: Your transfer of $500 is on hold. Verify your bank details to release the funds: zelle-verify-transfer.com
+spam,Revolut: Suspicious activity was detected on your card. Confirm your identity now to avoid account suspension: revolut-secure.net
+spam,Cash App: Your account has been flagged. Confirm your details within 24 hours to avoid permanent suspension: cashapp-confirm.info
+spam,AT&T: Your bill payment failed. Update your payment method now to avoid service interruption: att-billpay.info
+spam,Verizon: Your account is past due. Avoid disconnection by settling your balance today: verizon-paynow.net
+spam,T-Mobile: Your SIM card requires urgent verification or your service will be suspended within 24 hours: tmobile-simverify.com
+spam,Vodafone: You have a pending bill of £35.00. Pay now to avoid service suspension: vodafone-pay.info
+spam,IRS: You are eligible for a tax refund of $850. Claim it now by verifying your bank details: irs-refund-claim.com
+spam,IRS Notice: Your tax return has an issue that requires immediate action. Failure to respond will result in legal action: irs-gov-alert.net
+spam,HMRC: You are due a tax refund of £215.68. Click here to request the transfer: hmrc-taxrefund.info
+spam,HMRC Final Notice: Outstanding tax payment detected. Settle immediately to avoid enforcement action: hmrc-payment-due.com
+spam,E-ZPass: You have an unpaid toll of $6.99. Pay now to avoid a $50 late fee and driving record impact: ezpass-tollpay.com
+spam,FasTrak: Your toll account balance is past due. Settle now to avoid penalties: fastrak-billing.info
+spam,SunPass Toll Notice: Unpaid toll balance detected. Pay immediately to avoid suspension of your account: sunpass-pay.net
+spam,Final Notice: You have an unpaid toll violation. Pay the $12.50 fee within 7 days to avoid additional fees: toll-violation-payment.com
+spam,Netflix: Your payment method has failed. Update your billing details now to avoid losing access: netflix-billing-update.com
+spam,Apple ID: Your account has been locked due to suspicious activity. Verify now to restore access: apple-id-verify.net
+spam,iCloud Alert: Your storage is full and your account is at risk of suspension. Verify your Apple ID here: icloud-storage-alert.info
+spam,Amazon Prime: Your membership payment could not be processed. Update your card details to avoid cancellation: amazon-prime-billing.com
+spam,Microsoft Security Alert: We detected unusual sign-in activity on your account. Verify now to prevent lockout: microsoft-alert-verify.net
+spam,Your Disney+ subscription payment failed. Update your billing info within 24 hours to keep your account active: disneyplus-billing.info
+spam,WhatsApp: Your account will be suspended in 24 hours due to a policy violation. Verify here to prevent this: whatsapp-verify-account.com
+spam,Facebook Security: We noticed a login attempt from a new device. Confirm your identity or your account will be locked: fb-secure-check.net
+spam,Coinbase: Unusual withdrawal attempt detected on your account. Secure your funds now by verifying your identity: coinbase-secure.net
+spam,Binance: Your account has been selected for a security upgrade. Verify your details within 24 hours to avoid suspension: binance-verify.info
+spam,"Invest just $200 today and earn $2,000 in a week, guaranteed! Limited spots, message now to join: t.me/investfastglobal"
+spam,"CONGRATULATIONS! You've won a $1,000 Walmart gift card. Claim your prize now before it expires: walmart-giftcard-win.com"
+spam,You have been selected to receive a free iPhone 15 Pro. Claim your prize within 24 hours: apple-prize-claim.net
+spam,National Lottery: Your number matched our weekly draw. Contact our claims department immediately to receive your winnings.
+spam,"URGENT HIRING: Earn $500/day working from home, no experience required. Apply now, limited slots available: wfh-hiring-global.net"
+spam,Data Entry Job: Earn $3000/month working from your phone. Register today to secure your spot: easyjob-global.info
+ham,"Chase: A payment of $45.20 was made at Target on 09/20. If you did not make this purchase, call the number on your card."
+ham,"Your Wells Fargo account ending in 4521 was credited $1,200.00 on 09/22."
+ham,PayPal: You sent $30.00 to Alex Johnson. Your new balance is $145.60.
+ham,Venmo: John paid you $20.00 for dinner last night.
+ham,Barclays: Your monthly statement is now available to view in the app.
+ham,Reminder: Your Capital One credit card payment of $85.00 is due on Oct 3.
+ham,Your Amazon order #112-7789456 has shipped and will arrive Thursday by 8pm.
+ham,USPS: Your package is out for delivery and should arrive by end of day.
+ham,FedEx: Your package was delivered to your front door at 2:14pm today.
+ham,DHL: Your shipment has cleared customs and is on its way to the delivery depot.
+ham,Verizon: You have used 80% of your monthly data. Your billing cycle resets on the 1st.
+ham,Netflix: Your next billing date is October 5. Manage your subscription anytime in account settings.
+ham,T-Mobile: Thank you for your payment of $70.00. Your service is active.
+ham,Reminder: Your dentist appointment is tomorrow at 10:30am. Reply C to confirm or call us to reschedule.
+ham,This is to confirm your interview on Tuesday at 2pm at our downtown office. Please bring a copy of your resume.
+ham,"Team meeting moved to 4pm today, same conference room. See you there."
+ham,Your prescription is ready for pickup at the pharmacy. Hours are 9am-7pm today.
+ham,Your flight AA1234 departs at 6:45am tomorrow. Check-in opens 24 hours before departure.
+ham,"Hey, are we still on for coffee tomorrow morning? Let me know what time works."
+ham,"Thanks for helping me move this weekend, I owe you a favor big time."
+ham,"Running about 10 minutes late, traffic is bad on the highway. See you soon."
+ham,Can you grab milk on your way home? We're almost out.
+ham,"Happy birthday! Hope you have an amazing day, let's celebrate this weekend."
+ham,"Just landed, will call you once I get to the hotel and settle in."
+ham,"Don't forget we have book club tonight at 7, same place as last time."
+ham,"The game starts at 8, want to watch it together at my place?"
+ham,"Your Uber is arriving now, look for a silver Camry, license plate 7XKT492."
+ham,"Reminder: recycling pickup is tomorrow morning, put the bins out tonight."
+ham,"Great seeing you today, let's catch up again soon, maybe next week?"
+ham,"Your gym class starts at 6pm, see you on the mat."
+ham,The plumber said he'll be there between 1 and 3pm tomorrow.
+ham,"Loved the photos from the trip, can you send me a few more?"
+ham,"Your library books are due back on Friday, you can renew online if needed."
+ham,"Quick reminder that rent is due on the 1st, let me know if you need the account details again."

@@ -34,3 +34,20 @@ def test_legit_transaction_notice_not_flagged(artifacts):
         artifacts,
     )
     assert result["label"] == "ham"
+
+
+def test_international_toll_scam_flagged(artifacts):
+    result = classify(
+        "E-ZPass: You have an unpaid toll of $6.99. Pay now to avoid a $50 late fee: ezpass-tollpay.com",
+        artifacts,
+    )
+    assert result["label"] == "spam"
+    assert result["proba_spam"] > 0.5
+
+
+def test_legit_delivery_notice_not_flagged(artifacts):
+    result = classify(
+        "Your Amazon order #112-7789456 has shipped and will arrive Thursday by 8pm.",
+        artifacts,
+    )
+    assert result["label"] == "ham"

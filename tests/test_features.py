@@ -16,6 +16,11 @@ def test_ph_phone_number_detection():
     assert feats[0][9] >= 1  # num_phone_numbers
 
 
+def test_us_phone_number_detection():
+    feats = extract_handcrafted_features(["Call us at (555) 123-4567 now"])
+    assert feats[0][9] >= 1  # num_phone_numbers
+
+
 def test_urgency_word_matching():
     signals = explain_signals("URGENT: verify your account or it will be suspended")
     assert "urgent" in signals["matched_urgency_words"]
@@ -25,8 +30,22 @@ def test_urgency_word_matching():
 
 def test_ph_keyword_matching():
     signals = explain_signals("Your GCash account needs OTP verification")
-    assert "gcash" in signals["matched_ph_keywords"]
-    assert "otp" in signals["matched_ph_keywords"]
+    assert "gcash" in signals["matched_scam_keywords"]
+    assert "otp" in signals["matched_scam_keywords"]
+
+
+def test_international_keyword_matching():
+    signals = explain_signals("USPS: pay the customs fee via PayPal to release your parcel")
+    assert "usps" in signals["matched_scam_keywords"]
+    assert "paypal" in signals["matched_scam_keywords"]
+
+
+def test_keyword_matching_respects_word_boundaries():
+    # "ups" (the courier) should not fire on "backups"; "three" alone is too
+    # common a word, only the disambiguated "three mobile" should match.
+    signals = explain_signals("I made backups of the three files we discussed")
+    assert "ups" not in signals["matched_scam_keywords"]
+    assert "three mobile" not in signals["matched_scam_keywords"]
 
 
 def test_empty_text_does_not_crash():
