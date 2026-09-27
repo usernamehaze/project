@@ -1,9 +1,16 @@
-This repo hosts two related security/ML portfolio projects:
+This repo hosts three related security/ML portfolio projects, each using a
+different technique on purpose (supervised ML, forensic feature
+engineering, and streaming rule-based detection):
 
 1. **This one** — an SMS phishing/smishing text classifier.
 2. **[`exif-forensic-analyzer/`](exif-forensic-analyzer/README.md)** — an
    image forensics tool (EXIF tamper-indicator detection + OCR/QR scam
    detection) that reuses this project's trained model as a component.
+3. **[`log-intrusion-detector/`](log-intrusion-detector/README.md)** — a
+   rule-based intrusion detector for SSH auth logs and web access logs
+   (brute force, user enumeration, path scanning, injection patterns),
+   tested against both a real-world log dataset and labeled synthetic
+   attack fixtures.
 
 ---
 
